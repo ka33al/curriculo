@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0 ;
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+}
+.main{
+    max-width: 1200px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 152px auto;
+    border-radius: 10px;
+    background-color: rgba(149, 102, 194, 0.075);
+}
+.content{
+    display: flex;
+}
+h1{
+    height: 100px;
+    margin: 0 0 20px 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #22acbe;
+}
+h1 span{
+    font-size: 18px;
+}
+.aside{
+    width: 300px;
+    height: 600px;
+    margin: 2px -2px 0 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.info-profile{
+    height: 500px;
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.references{
+    margin: 40px 20px;
+    
+}
+.references p {
+    font-size: 17px;
+}
+.info-profile h2 {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.info-profile span {
+    font-size: 20px;
+}
+.bside{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    margin: 2px 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bside div{
+    margin-top: 10px;
+}
+.bside h2,h3 {
+    font-size: 16px;
+    margin:0px 10px 10px 10px;
+}
+.bside p  {
+    font-size: 16px;
+    margin:0px 10px 10px 10px;
+}
+.bside ul {
+    margin: 0 0 10px 10px;
+}
