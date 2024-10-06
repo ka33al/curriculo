@@ -57,6 +57,12 @@ h1 span{
 }
 .references p {
     font-size: 17px;
+}.references h2{
+    font-size: 14px;
+}
+.references span{
+   font-size: 20px;
+   font-weight: bold;
 }
 .info-profile h2 {
     font-size: 14px;
